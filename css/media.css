@@ -1,0 +1,187 @@
+/*------------------
+bootstrap media queries
+-------------------*/
+/*large devices */
+@media (min-width:1200px){
+    /* home section */
+    #home-heading h1 {
+        font-size: 1.8rem;
+    }
+    #home-content-box p {
+    font-size: 1.2rem;
+    font-weight: 500;
+        
+    }
+        /* content box title section */
+    .content-title h3 {
+        font-size: 1.8rem;
+    }
+
+    /* about section */
+    .about-right h1 {
+        font-size: 1.5rem;
+    }
+    .about-right p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    /* project section */
+    .proj-title p {
+        font-size: 1.3rem;
+    }
+    .proj-desc p {
+        font-size: 1rem;
+    }
+    /*skills section */
+    #skills h4 {
+        font-size: 1.2rem;
+    }
+    #skills p {
+        font-size: 0.8rem;
+    }
+    
+    
+}
+
+/*medium  devices(tablets) */
+@media (min-width:992px) and (max-width:1199px) {
+    .navbar {
+        background: rgba(0,0,0,0.7);
+        
+    }
+    .navbar-nav {
+        float: left;
+        padding: 0;
+        
+    }
+    
+}
+/*small devices  landscape phones and portrait tabs*/
+@media (min-width:768px) and (max-width:991px){
+    .navbar-nav>li>a {
+       font-size: 1rem;
+        font-weight: 600;
+   }
+     /* home section */
+    #home-heading h1 {
+        font-size: 1.5rem;
+    }
+    #home-heading p {
+        font-size: 1rem;
+    }
+    
+    .btn-own {
+        padding: 6px 25px 6px 25px;
+        font-size: 0.9rem;
+    }
+     /*content box custom section */
+    .content-title h3 {
+        font-size: 1.8rem;
+    }
+     /* about section */
+     .about-right h1 {
+        font-size: 1.5rem;
+    }
+    .about-right p {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+     /* project section */
+     .proj-title p {
+        font-size: 1.3rem;
+    }
+    .proj-desc p {
+        font-size: 1rem;
+    }
+     /* skills section */
+     #skills h4 {
+        font-size: 1.2rem;
+    }
+    #skills p {
+        font-size: 1rem;
+    }
+    
+
+    
+    
+    
+    
+}
+/*extra small devices */
+@media (max-width:480px){
+    #home-heading h1 {
+        font-size: 1.5rem;
+    }
+    .btn-own {
+        padding: 6px 15px 6px 15px;
+        font-size: 10px;
+    }
+    .btn-blue {
+      padding: 6px 22px 6px 22px;
+        font-size: 15px;  
+    }
+    .btn-proj {
+        padding: 6px 22px 6px 22px;
+        font-size: 17px;
+    }
+    .btn-white {
+        padding: 6px 22px 6px 22px;
+        font-size: 17px;
+    }
+    
+    .about-right h1 {
+        font-size: 1.2rem;
+    }
+    .about-right p {
+        font-size: 0.7rem;
+    }
+    #contact h3 {
+        font-size: 1rem;
+    }
+    #contact p {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    }
+    .nav-style {
+    font-size: 1rem;
+    font-weight: 700;
+}
+        
+    
+    
+    
+    
+}
+    #skills i {
+        font-size: 80px;
+    }
+    .navbar {
+        padding: 0;
+    }
+}
+/*small devices */
+@media (max-width:320px){
+    
+    .navbar-nav {
+        float: left;
+
+    }
+     .content-title h3 {
+        font-size: 1rem;
+    }
+    .btn-blue {
+      padding: 6px 15px 6px 15px;
+        font-size: 17px;  
+    }
+    #skills h4 {
+        font-size: 0.9rem;
+    }
+    #skills p {
+        font-size: 0.7rem;
+    }
+    #skills i {
+        font-size: 80px;
+    }
+    
+}

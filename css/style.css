@@ -1,0 +1,334 @@
+/*=====================================
+ default font size:20px,
+colours 
+blue : #34c6d3,
+grey type : #41464b
+
+
+====================================*/
+
+
+
+/*=======================
+
+parent rules
+
+=======================*/
+
+html,body {
+    height: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-family: "Roboto Condensed","Arial";
+}
+ 
+
+
+/*=======================
+
+home section rules
+
+=======================*/
+#home {
+    height: 100%;
+}
+
+#home-cover {
+       height: 100%;
+       background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)), url(../img/ivana-cajina-316246.jpg);
+    opacity: 70%;
+     background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       background-attachment: fixed;
+   }
+
+#home-content-box {
+       width: 100%;
+       height: 100%;
+       display: table;
+   }
+#home-content-box-inner {
+       display: table-cell;
+       text-align: center;
+       vertical-align: middle;
+   }
+   
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#home-content-box p {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.btn-own:link,
+.btn-own:visited {
+    margin-top: 20px;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0;
+    border-width: 2px;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+.btn-own:hover,
+.btn-own:active { 
+    background-color: #fff;
+    color: #41464b;
+    text-transform: uppercase;
+    
+}
+
+/*======================
+general rule for section heading 
+and section heading underline
+
+=======================*/
+
+
+.content {
+    padding: 60px 0 60px 0;
+}
+.content-title h3 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 0 0 30px 0;
+}
+.content-title-underline {
+    width:30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30 auto;
+}
+
+/*=======================
+
+about section rules
+
+=======================*/
+.about-left img {
+    float: left;
+    max-width: 100%;
+}
+.about-right h1 {
+    color: #41464b;
+    font-size:1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.about-right p {
+    font-weight: 300;
+    font-size: 0.8rem;
+    
+}
+.btn-blue:link,
+.btn-blue:visited {
+    color: #34c6d3;
+    border-width: 2px;
+    border-color: #34c6d3;
+    border-radius: 0;
+}
+.btn-blue:hover {
+    background-color: #34c6d3;
+    color: #41464b;
+    border-radius: 0;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    border-width: 2px;
+}
+.about-right .about-left {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fa-own {
+    color: #34c6d3;
+}
+
+/*=======================
+
+project section  rules
+
+=======================*/
+.proj-wrapper {
+    padding:20px 0 20px 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.proj-icon i {
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    width: 75px;
+    height: 75px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.btn-proj:link,
+.btn-proj:visited {
+    color: #34c6d3;
+    border-width: 2px;
+    border-color: #34c6d3;
+    border-radius: 0;
+}
+.btn-proj:hover {
+    background-color: #34c6d3;
+    color: #41464b;
+    border-radius: 0;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    border-width: 2px;
+}
+.proj-title p {
+    font-size: 1rem;
+    font-weight: 300px;
+    margin:0 0 10px 0;
+    text-transform: uppercase;
+}
+.proj-desc p {
+    font-size: 0.7rem;
+    font-weight: 300px;
+    
+}
+
+/*=======================
+
+skill section rules
+
+=======================*/
+#skills h4 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/*============
+contact/ footer section rules
+=================*/
+ 
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0,0,0,0.2);
+    
+}
+#contact h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    
+    
+    
+    
+}
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+    
+}
+#contact-details {
+    
+    
+    
+}
+address {
+    color: #fff;
+    
+}
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    color: #fff;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+    
+    
+}
+.social-list {
+       padding-left: 0;
+   }
+   
+   .social-list li {
+       list-style: none;
+       display: inline-block;
+       width: 32px;
+       height: 32px;
+       margin-right: 6px;
+       margin-top: 10px;
+   }
+   
+   .social-icon i {
+       font-size: 17px;
+   }
+   
+   
+   .icon-white i {
+       color: #fff;
+   }
+   
+   .social-icon i:hover {
+       color: #34d6c3;
+   }
+
+
+
+/*----------------------------
+     navbar customisation
+     
+-------------------------------*/  
+.portfolio-nav{
+    background: rgba(0,0,0,0.7);
+    padding: 7px 0;
+}
+.own-nav-wrapper{
+    padding: 0 40px;
+}
+.navbar-nav {
+    float: right;
+}
+.navbar-nav>li>a {
+       font-size: 15px;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+       font-weight: 700;
+   }
+.nav-style {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+   
+.navbar-toggle {
+    background-color: rgba(0,0,0,0.1);
+    border: :1px solid #fff;
+    
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+       
+         
+     
