@@ -16,9 +16,3 @@ $(document).on('click', 'a[href^="#"]', function (event) {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
 });
-/* function for nav bar collapse after clicking a section in the navbar it'll automatically close the options */
-$(function(){
-    $(".navbar-collapse ul li a").on("click touch",function(){
-        $(".navbar-toggle").click();
-    })
-});
